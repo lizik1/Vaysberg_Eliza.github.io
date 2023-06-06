@@ -1,0 +1,154 @@
+html{
+    box-sizing: border-box;
+}
+
+*,*::after, *::before {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+html,
+body{
+    height: 100%;
+}
+
+.wrapper{
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 10px 30px;
+}
+
+.body{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* Header */
+
+.container-header{
+    background-color: rgba(217, 217, 217, 0.3);
+}
+
+.header__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu__list{
+    display: flex;
+    gap: 20px;
+}
+
+.menu__list-link{
+    color: #03746D;
+    font-size: 18px;
+}
+
+.menu__list-link:hover{
+    color:#03746D;
+    font-weight: 600;
+}
+
+.menu__active-item{
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgba(255, 255, 255, 0.55);
+    border-radius: 40px;
+}
+
+.menu__active-page{
+    color:#03746D;
+}
+
+.menu__active-page:hover{
+    color:#03746D;
+}
+.soc-icons__list{
+    background-color: rgba(217, 217, 217, 0.3);
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 40px;
+    display: flex;
+    gap: 15px;
+}
+
+.soc-icons__list-link{
+    color: rgba(3, 116, 109, 0.6);
+    font-size: 18px;
+}
+
+.soc-icons__list-link:hover{
+    color: #03746D;
+}
+
+/* Footer */
+
+
+.footer{
+    background-color: #136A65;
+}
+
+.footer__menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.footer__menu-list{
+    max-width: 300px;
+}
+
+.footer__menu-title{
+    color: #92B6B4;
+    font-size: 16px;
+}
+
+.footer__menu-text{
+    color: #749997;
+    font-size: 14px;
+}
+
+.footer__menu-link{
+    color:#92B6B4;
+    font-size: 16px;
+}
+
+.footer__menu-link:hover{
+    color:#749997;
+}
+
+.footer__copy-text{
+    color:#749997;
+    font-size: 12px;
+    text-align: center;
+}
+
+
+
+
+.main{
+    flex-grow: 1;
+}
+
